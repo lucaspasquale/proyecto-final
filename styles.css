@@ -1,0 +1,78 @@
+body{font-family: 'Montserrat', sans-serif;
+    margin: 0;
+color: rgb(130, 71, 71);}
+
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);}
+
+
+header {display: flex;
+    min-height: 70px;
+     background-color: #000000;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;}
+
+.logo{
+display: flex;
+align-items: center;
+}
+
+.logo img{
+height: 50px;
+margin: right 10px}
+
+
+nav a{
+font-weight: 600;
+padding: 10px;
+}
+
+nav a:hover{
+color: white 
+}
+
+
+@media (max-width:700px){
+header{flex-direction: column;
+}
+}
+
+nav{padding: 10px 0px;}
+
+
+.jaguar img{
+height: 1200px;
+margin-right: 10px;
+align-items: center;
+}
+
+.pointer{
+height: 1200px;
+}
+
+#carrito{
+background-color: whitesmoke;
+}
+
+.ploter {
+    text-align: center;
+}
+.number{
+    text-align: center;
+}
+
+.mapita{
+    
+        height: 400px;
+      }
+
+.zapas{
+   align-items: center;
+}
+    
+    
+    
+  
+   
