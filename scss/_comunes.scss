@@ -3,4 +3,371 @@ body {
 
     background-color: $color-primario;
 
+    color: rgb(0, 0, 0);
+
 }
+
+
+.carousel-item {
+    height: 600px;
+}
+
+@media(min-width: $tablet) {
+    .carousel-item img{
+        height: 60vh;
+    }
+}
+
+@media(min-width: $desktop) {
+    .carousel-item img{
+        height: 80vh;
+    }
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+    margin-top: $espacio-medio;
+}
+p{
+    font-size: $fuente-media;
+}
+
+footer{
+    margin-top: $espacio-grande;
+}
+
+
+
+    
+   
+    
+    
+    nav a{
+    font-weight: 600;
+    padding: 10px;
+    }
+    
+    nav a:hover{
+    color: black
+    }
+    
+    
+    @media (max-width:700px){
+    header{flex-direction: column;
+    }
+    }
+    
+    nav{padding: 10px 0px;}
+    
+    
+   
+    .pointer{
+    height: 1200px;
+    }
+    
+    #carrito{
+    background-color: whitesmoke;
+    }
+    
+    .ploter {
+        text-align: center;
+    }
+    .number{
+        text-align: center;
+    }
+    
+    .mapita{
+        
+            height: 400px;
+          }
+    
+    .zapas{
+       align-items: center;
+    }
+    
+    .git {
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+         text-align:center;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+     
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+      }
+      
+      .grid-container img {
+        max-width: 100%;
+        border: 1px solid #ccc;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      .galeria {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+      }
+      
+      .galeria img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .galeriadeimgenes{
+        color: #000000;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      }  
+    
+      .hero {
+        background-image: url('ruta/a/la/imagen.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+      }
+      
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      .hero p {
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+      
+     
+      .hero a:hover {
+        background-color: #333;
+        color: #000000;
+      }
+     
+     .cran{
+        color: white;
+        background-position: center;
+       
+        
+        
+     }
+    
+    
+     .info-text {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 22px;
+        color: #333;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        line-height: 1.5;
+        text-align: justify;
+      }
+    
+      .info-text {
+       
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+      }
+    
+      .info-text {
+        
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+    
+       
+    
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    
+    .price {
+        float: right;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    
+    button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    
+    footer {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: $espacio-grande;
+
+
+       .container-redes a {
+
+        color: $color-terciario;
+        text-decoration: none;
+        font-size: 40px;
+
+       }
+    }
+    
+    
+    .contacto {
+        background-color: #f2f2f2;
+        padding: 50px;
+      }
+      
+      .contacto h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      .contacto-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+      }
+      
+      .contacto-direccion,
+      .contacto-horarios,
+      .contacto-mapa {
+        flex-basis: calc(33.33% - 20px);
+        margin-bottom: 20px;
+      }
+      
+      .contacto-direccion h3,
+      .contacto-horarios h3,
+      .contacto-mapa h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .contacto-direccion p.contacto-horarios p {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      
+      .contacto-mapa iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+        border-radius: 5px;
+      }
+    
+      
+    
+    
+    
+    
+      .contacto {
+        background-color: #f2f2f2;
+        padding: 50px;
+      }
+      
+      .contacto h {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      .contacto form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+      }
+      
+      .contacto label {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .contacto input,
+      .contacto textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      
+      .contacto button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+      }
+    
+    
+    
+      #products-section {
+        background-color: #fff;
+        padding: 50px;
+        text-align: center;
+      }
+      
+      #products-section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      #products-section p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 50px;
+      }
+      
+      .product {
+        display: inline-block;
+        width: 300px;
+        margin: 0 20px 40px;
+        text-align: left;
+      }
+      
+      .product img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      
+      .product h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .product p {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+

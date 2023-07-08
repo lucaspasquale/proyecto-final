@@ -1,0 +1,15 @@
+.contenedor-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $espacio-chico ;
+  
+
+    .iconify-icon {
+        font-size: 20px;
+    }
+
+    
+}
+
