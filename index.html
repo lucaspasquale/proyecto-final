@@ -14,7 +14,7 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <title>Calzados La Feria | Inicio</title>
 
-  <link rel="stylesheet" type="text/css" href="styles.csss/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
   <meta name="description"
     content="Te damos la bienvenida a Calzados la feria, aqui vas a poder encontrar calzados de todos los precios y gustos">
@@ -22,8 +22,13 @@
   <meta name="keywords" content="html, css, sass, bootstrap, calzados, feria, instagram">
 
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
   <link rel=" shortcut icon" href="img/zarla-sandiseos-1x1-2400x2400-20220118-pmpvmy9q7cth6k9fqkxg.png">
-  <link rel="stylesheet" href="/styles.csss/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,6 +43,37 @@
 
 
   <header id="arriba">
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Calzados La Feria</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/informacion.html">Informacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/carrito.html">Carrito</a>
+            </li>
+
+        
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="logo">
       <a href=index.html>
 
@@ -47,19 +83,6 @@
 
       </a>
     </div>
-
-    <nav>
-
-      <a href="index.html" class="nav link"> Inicio</a>
-      <a href="pages/informacion.html" class="nav link"> Informacion</a>
-      <a href="pages/contacto.html" class="nav link"> Contacto</a>
-      <a href="pages/galeria.html" class="nav link"> Galeria</a>
-      <a href="pages/carrito.html" class="nav link"> Carrito</a>
-    </nav>
-
-
-
-
 
   </header>
 
@@ -72,6 +95,34 @@
 
 
     </div>
+  </section>
+
+
+  <section>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img 2/20220622_121022.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img 2/20220622_121143.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img 2/20220622_121336.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  
   </section>
   <section id="products-section">
     <h2>Nuestros productos</h2>
